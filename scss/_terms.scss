@@ -1,0 +1,25 @@
+/*** terms and privacy pages styles ****/
+.HV-terms {
+    padding-bottom: 110px;
+    padding-top: 51px;
+
+    .container {
+        max-width: 1240px;
+    }
+
+    h3 {
+        color: #000;
+        font-weight: 600;
+    }
+    ul,ol{
+        padding-left: 1rem;
+        margin:0;
+    }
+    li{
+        ul,ol{
+            list-style: disc;
+            padding-left: 0;
+            margin-top: 5px;
+        }
+    }
+}
